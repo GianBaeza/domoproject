@@ -1,8 +1,14 @@
-# React + Vite
+Desafio DOMO  ( Gian Franco Baeza )
+- IMAGEN NUMERO 1 
+- Bootstrap se aplcia en el contenedor de los circulos para tener un aspecto responsive
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+¿Qué cosas tendremos en cuenta?
+En este desafío evaluamos:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Que sabés usar Bootstrap.
+Que sabés CSS.
+Que tu entrega es responsive.
+Que hay una alta fidelidad entre la imagen y tu maqueta.
+Que sabés aplicar JavaScript.
+Que prestás atención a los detalles.
