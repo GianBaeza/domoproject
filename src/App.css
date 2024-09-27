@@ -1,4 +1,8 @@
-/* Global styles */
+@font-face {
+  font-family: "MiFuentePersonalizada";
+  src: url("../public/Font/InterVariable.ttf") format("woff2");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -83,18 +87,24 @@ nav {
 .title {
   margin: 0;
   font-size: 22px;
-  font-weight: 100;
+  font-weight: 600;
+  font-family: MiFuentePersonalizada;
 }
 
 .brands {
   text-align: center;
   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
   padding-bottom: 10px;
 }
 
 .brands h3 {
-  font-size: 1.4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
   margin-bottom: 20px;
+  font-family: MiFuentePersonalizada;
 }
 
 .logos {
@@ -102,7 +112,7 @@ nav {
   justify-content: center;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 90px;
   flex-wrap: wrap;
 }
 
@@ -112,8 +122,19 @@ nav {
   align-items: center;
   font-weight: bold;
   color: #333;
+  gap: 2px;
 }
 
 .brandLogo {
-  height: 50px;
+  height: 70px;
+}
+span {
+  font-family: MiFuentePersonalizada;
+  font-weight: 400;
+  font-size: 30px;
+}
+@media (max-width: 768px) {
+  .logos {
+    gap: 10px;
+  }
 }
