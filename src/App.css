@@ -1,0 +1,119 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+}
+
+.Background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 90px;
+}
+
+.header {
+  width: 80%;
+  height: 20%;
+  margin: auto;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 20%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  border-radius: 100%;
+  border: 2px solid;
+  padding: 40px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  overflow: hidden;
+}
+
+.divCircle {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  height: 300px;
+  width: 300px;
+}
+
+.blue {
+  background-color: #015aff;
+}
+
+.purple {
+  background-color: #b302fe;
+}
+
+.green {
+  background-color: #00ff43;
+}
+
+.red {
+  background-color: #ff2b03;
+}
+
+.title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 100;
+}
+
+.brands {
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 10px;
+}
+
+.brands h3 {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.logoItem {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: #333;
+}
+
+.brandLogo {
+  height: 50px;
+}
